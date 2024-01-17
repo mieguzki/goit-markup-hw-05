@@ -552,8 +552,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
 }
-.modal-field {    
-    margin-bottom: 8px;
+.modal-field{    
+   
 }
 .modal-label {
     color:#8E8F99;
@@ -574,10 +574,14 @@ margin-bottom: 16px;
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 8px;
 }
 .modal-input:focus,
 .modal-input:hover{
     border-color: #4D5AE5
+}
+.modal-input:focus +.modal-icon{
+    fill: #4D5AE5;
 }
 
 .modal-wrap{
@@ -591,10 +595,7 @@ margin-bottom: 16px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-icon:focus,
-.modal-icon:hover {
-    fill: #4D5AE5;
-}
+
 
 .modal-comment{
     width:100%;
