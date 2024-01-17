@@ -606,8 +606,8 @@ margin-bottom: 16px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-textrea{
-    margin-bottom: 16px;  
+.modal-text{
+    margin-bottom: 16px;
 }
 .modal-comment{
     width:100%;
@@ -622,9 +622,9 @@ margin-bottom: 16px;
     padding: 8px 16px;
     outline: transparent;
     resize:none;
-    transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-     
+    transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);      
 }
+
 .modal-comment:focus,
 .modal-comment:hover{
     border-color: #4D5AE5
