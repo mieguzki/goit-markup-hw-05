@@ -553,7 +553,7 @@ letter-spacing: 0.02em;
 margin-bottom: 16px;
 }
 .modal-field {    
-    margin-bottom: 18px;
+    margin-bottom: 8px;
 }
 .modal-label {
     color:#8E8F99;
@@ -582,7 +582,7 @@ margin-bottom: 16px;
 
 .modal-wrap{
     position: relative;
-    margin-bottom: 8px;
+    
 }
 .modal-icon{
     position: absolute;
