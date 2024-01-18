@@ -695,7 +695,7 @@ border-color: #4D5AE5
     text-decoration: underline;
     margin-left: 5px;
 }
-.check-text-span {
+.check-span {
     display: inline-flex;
 }
 .check-text span{
@@ -716,6 +716,9 @@ border-color: #4D5AE5
     background-color: #404BBF;
     border:none;
     fill: #F4F4FD;
+}
+.check-icon{
+    color:#FFF;
 }
 
 .form-button {   
