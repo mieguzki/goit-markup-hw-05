@@ -685,14 +685,15 @@ border-color: #4D5AE5
     font-size: 12px;    
     line-height: 1.17;
     letter-spacing: 0.04em;    
-    display: flex;    
+    display: flex;
+    align-items: center;    
 }
-.chek-text-a{
+.chek-text a{
     color:#4D5AE5;
     text-decoration: underline;
     margin-left: 5px;
 }
-.check-span{
+.check-text span{
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.40);
@@ -700,13 +701,13 @@ border-color: #4D5AE5
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-right: 8px;    
+    margin-right: 8px;
     fill:transparent;
     display: inline-flex;
     align-items: center;
-    justify-content: center;      
+    justify-content: center;              
 }
-.check-input:checked + .check-span{
+.check-input:checked +.check-text span {
     background-color: #404BBF;
     border:none;
     fill: #F4F4FD;
