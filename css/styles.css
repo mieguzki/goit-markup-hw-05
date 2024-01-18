@@ -710,14 +710,16 @@ border-color: #4D5AE5
     justify-content: center; 
     display: inline-flex;             
 }
+.check-span {
+    display: inline-flex;   
+}
 .check-input:checked +.check-text span {
     background-color: #404BBF;
     border:none;
     fill: #F4F4FD;
 }
-.check-span {
-    display: inline-flex;   
-}
+
+
 .check-icon{
     color:#FFF;
 }
