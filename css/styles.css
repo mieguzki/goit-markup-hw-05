@@ -501,7 +501,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form{
     display: flex;
-    gap:24px;
+    gap:24px;    
 }
 .footer-input-email{
     width: 264px;
